@@ -6,8 +6,7 @@ export const event_api = {
     )
       .then((res) => res.text())
       .then((text) => text.split("\n"));
-    console.log(data);
-    // Convertimos cada línea en un objeto Restaurant, asegúrate de que los campos no posean `,`
+    // Convertimos cada línea en un objeto eventos de opentech.pe, asegúrate de que los campos no posean `,`
     const eventsMap = {};
 
     data.forEach((row) => {

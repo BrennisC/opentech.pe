@@ -11,7 +11,6 @@ export async function getStaticProps() {
 }
 
 export default function PreviousEvents({ events }) {
-  console.log(events);
   return (
     <Layout title="Eventos anteriores| OpenTech">
       <main className="px-3 lg:px-48 md:px-20">
